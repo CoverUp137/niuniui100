@@ -16,7 +16,11 @@ cfd_start_time = -0.15
 cfd_offset_time = 0.01
 
 # 基础配置勿动
-cfd_url = "https://m.jingxi.com/jxbfd/user/ExchangePrize?_imbfd=5874FADC40DEEDC11E0ED00DC017B44958CD19AAE83B01518E885242E7EE8FBA81D1EFCC346CDE4F35F870C8F9C9AF87D9D013BAC0926D2233832EA37AA3D9B2&strZone=jxbfd&bizCode=jxbfd&source=jxbfd&dwEnv=7&_cfd_t=1655280064264&ptag=7155.9.47&dwType=3&dwLvl=15&ddwPaperMoney=100000&strPoolName=jxcfd2_exchange_hb_202205&strPgtimestamp=1655280064100&strPhoneID=cbe1a1901ef4727d&strPgUUNum=200841981e6906797c3ba67f0e9c790c&_stk=_cfd_t%2C_imbfd%2CbizCode%2CddwPaperMoney%2CdwEnv%2CdwLvl%2CdwType%2Cptag%2Csource%2CstrPgUUNum%2CstrPgtimestamp%2CstrPhoneID%2CstrPoolName%2CstrZone&_ste=1&h5st=20220615160104267%3B5789519286309794%3B92a36%3Btk02wc1a91d4718n748fCRVnYlhw5%2BDUngCRpomXgnt%2FBmeGi8ypYnIlJGWwLtsjhNxlz4%2BoMbjJk3c%2BDJaHuXckpUSz%3B801f94ed9e21460d9e842f311d093e4a91f5f1c432bf1d8aaade2eeedbfecc42%3B3.1%3B1655280064267%3B62f4d401ae05799f14989d31956d3c5f941dddebf9b194242c6e5165a9bb51db7e3c1b4cf3c785a53b91e4291a46a89f1345c69c77910ded6a27732b867e231a0bd787e4de8792606a479d25df92da6ffcac90c6966513c2cfdb22810503f73c4dd02981bfa1018df295b336aade2ac71d506a5d3f374a9bf7c8329ef8f130b349c07f00ffe8a9a91d2f86c64dd46e14&_=1655280064291&sceneval=2&g_login_type=1&callback=jsonpCBKI&g_ty=ls&appCode=msd1188198"
+cfd_url = "https://m.jingxi.com/jxbfd/user/ExchangePrize?strZone=jxbfd&bizCode=jxbfd&source=jxbfd&dwEnv=7&_cfd_t=1652871664897&ptag=7155.9.47&dwType=3&dwLvl=15&ddwPaperMoney=100000&strPoolName=jxcfd2_exchange_hb_202205&strPgtimestamp=1655280064100&strPhoneID=cbe1a1901ef4727d&strPgUUNum=200841981e6906797c3ba67f0e9c790c&_stk=_cfd_t%2C_imbfd%2CbizCode%2CddwPaperMoney%2CdwEnv%2CdwLvl%2CdwType%2Cptag%2Csource%2CstrPgUUNum%2CstrPgtimestamp%2CstrPhoneID%2CstrPoolName%2CstrZone&_ste=1&h5st=20220615160104267%3B5789519286309794%3B92a36%3Btk02wc1a91d4718n748fCRVnYlhw5%2BDUngCRpomXgnt%2FBmeGi8ypYnIlJGWwLtsjhNxlz4%2BoMbjJk3c%2BDJaHuXckpUSz%3B801f94ed9e21460d9e842f311d093e4a91f5f1c432bf1d8aaade2eeedbfecc42%3B3.1%3B1655280064267%3B62f4d401ae05799f14989d31956d3c5f941dddebf9b194242c6e5165a9bb51db7e3c1b4cf3c785a53b91e4291a46a89f1345c69c77910ded6a27732b867e231a0bd787e4de8792606a479d25df92da6ffcac90c6966513c2cfdb22810503f73c4dd02981bfa1018df295b336aade2ac71d506a5d3f374a9bf7c8329ef8f130b349c07f00ffe8a9a91d2f86c64"
+
+
+
+
 pattern_pin = re.compile(r'pt_pin=([\w\W]*?);')
 pattern_data = re.compile(r'\(([\w\W]*?)\)')
 
