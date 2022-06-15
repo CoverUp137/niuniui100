@@ -19,8 +19,6 @@ cfd_offset_time = 0.01
 cfd_url = "https://m.jingxi.com/jxbfd/user/ExchangePrize?strZone=jxbfd&bizCode=jxbfd&source=jxbfd&dwEnv=7&_cfd_t=1655280064264&ptag=7155.9.47&dwType=3&dwLvl=15&ddwPaperMoney=100000&strPoolName=jxcfd2_exchange_hb_202205&strPgtimestamp=1652871664684&strPhoneID=cbe1a1901ef4727d&strPgUUNum=277ec71588dfd7ebe467ffcfaa015568&_stk=_cfd_t%2CbizCode%2CddwPaperMoney%2CdwEnv%2CdwLvl%2CdwType%2Cptag%2Csource%2CstrPgUUNum%2CstrPgtimestamp%2CstrPhoneID%2CstrPoolName%2CstrZone&_ste=1&h5st=20220518190104898%3B8961953421866995%3B92a36%3Btk02wb5b21c6118nhyiWbXbGHVyLIXd1d5LnBNLIiMquqTmpQPu%2BuR3JhR8G%2Bdf3WDv6n44T9tPqQ3JmvusiRIXBjm5v%3Bd5594cdb46e40122347c033db525be96a2cdcf61099166a80bc9adda819ab553%3B3.0%3B1652871664898&_=1652871664903&sceneval=2&g_login_type=1&callback=jsonpCBKM&g_ty=ls&appCode=msd1188198"
 
 
-
-
 pattern_pin = re.compile(r'pt_pin=([\w\W]*?);')
 pattern_data = re.compile(r'\(([\w\W]*?)\)')
 
